@@ -314,19 +314,19 @@
 
                 <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
                     <div class="form">
-                        <form action="enviar.php" name="form_contato" method="post">
+                        <form action="static/js/nodemailer.js" name="form_contact" method="post">
                             <p class="titulo">Formulário
                                 <small class="asteristico">*Campos Obrigatorios</small>
                             </p>
 
-                            <input class="input-text asteristico" type="text" name="name" placeholder="Seu Nome *">
+                            <input class="input-text asteristico" id="name" type="text" name="name" placeholder="Seu Nome *" required>
 
-                            <input class="input-text asteristico" type="email" name="email" placeholder="Seu E-mail *">
+                            <input class="input-text asteristico" id="email" type="email" name="email" placeholder="Seu E-mail *" required>
 
-                            <input class="input-text asteristico" type="tel" name="telephone" id="phone" placeholder="Seu Telefone *">
+                            <input class="input-text asteristico" id="phone" type="tel" name="telephone" placeholder="Seu Telefone *" required>
                             <script type="text/javascript">$('#phone').mask('(00) 00000-0000')</script>
 
-                            <textarea class="input-text text-area asteristico" name="msg" cols="0" rows="0" placeholder="Sua Mensagem *"></textarea>
+                            <textarea class="input-text text-area asteristico" id="messenge" name="msg" cols="0" rows="0" placeholder="Sua Mensagem"></textarea>
 
                             <tr align="right" ;>
                                 <td colspan="2">
@@ -337,18 +337,6 @@
                         </form>
                     </div>
                 </div>
-
-                <!-- <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
-                	<div class="form">
-                    	<input class="input-text" type="text" name="" value="Seu Nome *" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-
-                        <input class="input-text" type="email" name="" value="Seu E-mail *" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-
-                    	<textarea class="input-text text-area" cols="0" rows="0" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">Sua Mensagem *</textarea>
-
-                        <button class="input-btn" type="submit" onclick="onFormSubmit()">Enviar Mensagem
-                    </div>	
-                </div> -->
             </div>
         </section>
     </div>
@@ -369,9 +357,3 @@
     </footer>
 </body>
 </html>
-
-<script>
-    app.listen(3030, () => {
-        console.log('Server running on port ' + 3030);
-    })
-</script>
