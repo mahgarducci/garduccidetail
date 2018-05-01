@@ -1,5 +1,7 @@
 var nodemailer = require('nodemailer');
-var contactForm = require('index.html');
+var express = require("express");
+//use the application off of express.
+var app = express();
 
 var transporter = nodemailer.createTransport({
   service: 'gmail',
