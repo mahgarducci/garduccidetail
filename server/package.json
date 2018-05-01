@@ -1,17 +1,21 @@
 {
-    "name": "garduccidetail",
-    "version": "0.0.1",
-    "description": "Health Manager System",
-    "main": "index.html",
-    "scripts": {
-      "start": "node src/index.html",
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mahgarducci/garduccidetail.git"
-    },
-    "keywords": [
-      "Garducci Detail"
-    ]
+  "name": "garduccidetail",
+  "version": "0.0.1",
+  "description": "Health Manager System",
+  "main": "index.html",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahgarducci/garduccidetail.git"
+  },
+  "keywords": [
+    "Garducci Detail"
+  ],
+  "dependencies": {
+    "connect": "^3.6.6",
+    "serve-static": "^1.13.2"
   }
+}
