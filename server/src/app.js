@@ -1,12 +1,13 @@
-var express = require("express");
+var express = require('express');
 var app     = express();
+var path    = require('path');
 
-app.get('/',function(req,res){
-  res.sendFile('src/views/index.html');
-  express.static(__dirname + '/static/css');
-  //It will find and locate index.html from View or Scripts
+app.use('/public', express.static('./src/public'));
+
+app.get('/', function(req, res) {
+  res.sendfile('./src/public/views/index.html');
 });
 
-app.listen(3000);
-
-console.log("Running at Port 3000");
+app.listen(3000, function() {
+  console.log("Running at Port 3000");
+});

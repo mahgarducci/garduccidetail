@@ -12,7 +12,7 @@ var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
     user: 'marcusgarducci@gmail.com',
-    pass: 'asteriscos'
+    pass: ''
   }
 });
 
