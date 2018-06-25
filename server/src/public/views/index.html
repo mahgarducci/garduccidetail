@@ -29,7 +29,8 @@
     <script type="text/javascript" src="/public/js/wow.js"></script>
     <script type="text/javascript" src="/public/js/classie.js"></script>
     <script type="text/javascript" src="/public/js/jquery.mask.min.js"></script>
-    <script src="/public/js/main.js"></script>
+    <script type="text/javascript" src="/public/js/main.js"></script>
+    <script type="text/javascript" src="/server/src/app.js"></script>
 
 
     <!--[if lt IE 9]>
@@ -314,23 +315,27 @@
 
                 <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
                     <div class="form">
-                        <form action="/send-email" name="form_contact" method="post">
+                        <form action="/send-email" name="form_contact" method="post" role="form">
                             <p class="titulo">Formulário
-                                <small class="asteristico">*Campos Obrigatorios</small>
+                                <small class="asterisco">*Campos Obrigatorios</small>
                             </p>
 
-                            <input class="input-text asteristico" id="name" type="text" name="name" placeholder="Seu Nome *" required>
+                            <input class="input-text asterisco" id="name" type="text" name="name" 
+                            placeholder="Seu Nome *" required>
 
-                            <input class="input-text asteristico" id="email" type="email" name="email" placeholder="Seu E-mail *" required>
+                            <input class="input-text asterisco" id="email" type="email" name="email" 
+                            placeholder="Seu E-mail *" required>
 
-                            <input class="input-text asteristico" id="phone" type="tel" name="telephone" placeholder="Seu Telefone *" required>
+                            <input class="input-text asterisco" id="phone" type="tel" name="phone" 
+                            placeholder="Seu Telefone *" required>
                             <script type="text/javascript">$('#phone').mask('(00) 00000-0000')</script>
 
-                            <textarea class="input-text text-area asteristico" id="messenge" name="msg" cols="0" rows="0" placeholder="Sua Mensagem"></textarea>
+                            <textarea class="input-text text-area asterisco" id="messenge" name="messenge" 
+                            cols="0" rows="0" placeholder="Sua Mensagem"></textarea>
 
-                            <tr align="right" ;>
+                            <tr align="right">
                                 <td colspan="2">
-                                    <input type="submit" class="campo_submit input-btn" value="Enviar" alert="Enviado com sucesso!" />
+                                    <input type="submit" class="campo_submit input-btn" value="Enviar"/>
                                 </td>
                             </tr>
                             </table>
@@ -347,7 +352,7 @@
                     <img src="/public/img/logo.png" alt="logo-image">
                 </a>
             </div>
-            <span class="copyright">Copyright © 2017 | Desenvolvido por Marcus Garducci.</span>
+            <span class="copyright">Copyright © 2018 | Desenvolvido por Marcus Garducci.</span>
         </div>
         <!-- 
             All links in the footer should remain intact. 

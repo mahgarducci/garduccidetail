@@ -4,9 +4,7 @@ type = "text/javascript" >
         $('.res-nav_click').click(function () {
             $('.main-nav').slideToggle();
             return false
-
         });
-
     });
 
 wow = new WOW(
@@ -16,7 +14,6 @@ wow = new WOW(
     }
 );
 wow.init();
-
 
 type = "text/javascript" >
     $(window).load(function () {
@@ -37,17 +34,12 @@ type = "text/javascript" >
         });
     })
 
-
 type = "text/javascript" >
-
     $(window).load(function () {
-
-
         var $container = $('.portfolioContainer'),
             $body = $('body'),
             colW = 375,
             columns = null;
-
 
         $container.isotope({
             // disable window resizing
@@ -80,5 +72,4 @@ type = "text/javascript" >
             });
             return false;
         });
-
     });
