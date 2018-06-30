@@ -17,8 +17,8 @@ app.post('/send-email', function(req, res, next) {
     port: 465,
     secure: true,
     auth: {
-       user: '',
-       pass: ''
+       user: 'marcusgarducci@gmail.com',
+       pass: '@Combatte1'
      }
   });
 
