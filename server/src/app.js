@@ -44,6 +44,8 @@ app.post('/send-email', function(req, res, next) {
   });
 });
 
-app.listen(3000, function() {
+
+var port = process.env.PORT || 3000;
+app.listen(port, function() {
   console.log("Running at Port 3000");
 });
