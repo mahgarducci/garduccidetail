@@ -833,3 +833,9 @@ border: 2px solid #fff;
 .asterisco{
   color:#F00;
 }
+
+#second-img {
+	width: 500px;
+	height: 370;
+	padding-top: 30px;
+}
