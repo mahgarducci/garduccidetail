@@ -1,2 +1,0 @@
-# garduccidetail
-GarducciDetail's website
