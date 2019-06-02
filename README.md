@@ -1,2 +1,2 @@
-# garduccidetail
+# Garducci Detail
 GarducciDetail's website
