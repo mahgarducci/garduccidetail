@@ -1575,8 +1575,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/hero-bg.png");
-  color: #c98f45;
+  background: url("../img/footer-bg.jpg") center center no-repeat;
+  color: #fff;
   font-size: 14px;
   position: relative;
 }
