@@ -19,19 +19,36 @@
 }
 
 .pricing .recommended-badge {
-    background: #ebc99d;
-    color: #333;
+    background: #ffc107;
+    color: #444;
 }
 
 .pricing .recommended .btn-buy {
-    background: #c98f45;
+    background: #ffc107;
 }
 
 .pricing .box .btn-buy {
-    border: #c98f45;
+    border: #ffc107;
+    color: #444;
 
 }
 
 .pricing .recommended .btn-buy:hover {
     background: #e98502;
+}
+
+.why-us .modulos_list span {
+    color: #ffc107;
+}
+
+.why-us .accordion-list .modulos_list {
+    color: #555;
+}
+
+.carousel-control-prev-icon {
+    fill: #ffc107;
+}
+
+.carousel-inner .carousel-caption .d-none .d-md-block h5 {
+    color: #ffc107!important;
 }
