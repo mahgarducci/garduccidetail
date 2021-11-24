@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #footer .footer-top .social-links a {
     background: #c98f45;
 }
@@ -38,11 +39,15 @@
 }
 
 .why-us .modulos_list span {
+=======
+.why-us .accordion-list .modulos_list span {
+>>>>>>> changes
     color: #ffc107;
 }
 
 .why-us .accordion-list .modulos_list {
     color: #555;
+<<<<<<< HEAD
 }
 
 .carousel-control-prev-icon {
@@ -51,4 +56,6 @@
 
 .carousel-inner .carousel-caption .d-none .d-md-block h5 {
     color: #ffc107!important;
+=======
+>>>>>>> changes
 }
