@@ -52,3 +52,23 @@
 .carousel-inner .carousel-caption .d-none .d-md-block h5 {
     color: #ffc107!important;
 }
+
+.featured .nav-link.active h4 {
+    color: #ffc154;
+}
+
+.featured .nav-link:hover h4 {
+    color: #c98f45
+}
+
+.faq .faq-list a.collapsed:hover {
+    color: #ffc154;
+}
+
+.faq .faq-list a {
+    color: #c98f45   
+}
+
+.services .icon-box i {
+    color: #ffc154;
+}

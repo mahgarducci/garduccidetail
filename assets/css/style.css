@@ -1086,6 +1086,10 @@ section {
   .testimonials .testimonial-item p {
     width: 80%;
   }
+
+  #img_perfil_curso {
+    padding-top: 130px;
+  }
 }
 
 /*--------------------------------------------------------------
